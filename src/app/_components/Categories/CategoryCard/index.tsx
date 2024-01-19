@@ -1,5 +1,5 @@
 'use client'
-
+import React from 'react'
 import Link from 'next/link'
 
 import { Category } from '../../../../payload/payload-types'
@@ -11,7 +11,7 @@ type CategoryCardProps = {
   category: Category
 }
 
-function CategoryCard({ category }: CategoryCardProps) {
+const CategoryCard = ({ category }: CategoryCardProps) => {
   const media = category.media as Media
   const { setCategoryFilters } = useFilter()
 
@@ -26,4 +26,5 @@ function CategoryCard({ category }: CategoryCardProps) {
     </Link>
   )
 }
+
 export default CategoryCard

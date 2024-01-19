@@ -11,14 +11,14 @@ export const CATEGORIES = `
   query Categories {
     Categories(limit: 300) {
       docs {
-      id
-      title
-      media {
-        alt
-        width
-        height
-        url
-      }
+        id
+        title
+        media {
+          alt
+          width
+          height
+          url
+        }
       }
     }
   }
