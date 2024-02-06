@@ -6,7 +6,7 @@ This template is right for you if you are selling:
 
 - Physical products like clothing or merchandise
 - Digital assets like ebooks or videos
-- Access to content like courses or premium articles
+- Access to content like courses or premium articles.
 
 Core features:
 
